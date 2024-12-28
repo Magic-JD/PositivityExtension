@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Positivity Filter",
+  "version": "1.0",
+  "description": "This extension will remove all negative information from your webpage.",
+  "permissions": ["scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "filter.js"
+  },
+  "action": {
+    "default_title": "Make Page Positive"
+  }
+}
